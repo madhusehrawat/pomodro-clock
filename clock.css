@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    height:100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  .container{
+    height:460px;
+    width:220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 137, 60, 0.897);
+    border-radius:10px;
+    flex-direction: column;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #countdown{
+    font-size: 80px;
+    font-weight: bold;
+    color: #333333ea;
+    margin-bottom: 5px;
+    padding-top:15px;
+  
+  }
+  .timeline{
+    border:4px solid green;
+    width:100%;
+  }
+  h2{
+    text-align: center;
+    text-decoration: solid;
+    
+  }
+  #session{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+  }
+  .session-time h2, .break-time h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  
+  }
+   
+  #session-increment, #session-decrement, #break-increment, #break-decrement {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 10px; 
+  }
+  #start{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+  }
+  #reset{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+  }
+  #start:hover, #reset:hover {
+    background-color: #45a049;
+  }
